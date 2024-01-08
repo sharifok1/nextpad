@@ -1,21 +1,19 @@
 import React from 'react';
-import logo from '../../Asset/logo/nextPadLogo.png'
 import './HomePage.css'
 import { NavLink } from 'react-router-dom';
+import Header from '../Shared/Header/Header';
 
 const HomePage = () => {
 
-
     return (
         <div className=''>
+            {/* ==================================banner part============================= */}
             <div className='banner-section'>
                 <div className='banner_content'>
                     <div className='container'>
-                        
-                        <div className='top-header'>
-                            <img src={logo} alt="nextpad-logo" />
-                            <button className='connect-btn'>Connect</button>
-                        </div>
+                       {/* Header// */}
+                       <Header/>
+                       {/* Header// */}
 
                         <div className='text-content'>
                             <h1>Nextpad</h1>
@@ -27,15 +25,17 @@ const HomePage = () => {
                 </div>  
             </div>
 
-             {/* homepage body//  */}
+            {/* ============================homepage body==================================  */}
              <div className='home-body'>
                 <div className='container'>
                   
                   <div className='mint-timer'>
                       <div className='time-counter'>
                           <h3>Ends in</h3>
-                          <div className='time-code'>5</div>
-                          <div className='time-code'>8</div>
+                          <div className='time_blocks'>
+                            <div className='time-code'>5</div>
+                            <div className='time-code'>8</div>
+                          </div>
                           <span>Seconds</span>
                       </div>
                       <div>
@@ -46,7 +46,8 @@ const HomePage = () => {
                       </div>
                   </div>
 
-                 {/* three cards// */}
+                 {/* =======================three cards=============================== */}
+
                   <div className='three-cards'>
                       <div className='three-cards-content'> 
                         <div>
@@ -72,7 +73,7 @@ const HomePage = () => {
                             <hr />
                   </div>
 
-                {/* your mints// */}
+                {/* =====================================your mints=========================== */}
                 <div>
 
                  <h1 className='heading-one'>Your Mints</h1> 
@@ -97,7 +98,7 @@ const HomePage = () => {
                          </div>
                       </div>
                   </div>
-                  <br /> <br />
+                  <div className='mobile_disabled'><br /> <br /></div>
                   <div className='three-cards'>
 
                   <div className='three-cards-content'> 
@@ -123,9 +124,9 @@ const HomePage = () => {
                   
                 {/* history */}
                 <div className='hr-line'>
-                                    <hr />
-                        </div>
-                {/* -----troggle btn---- */}
+                        <hr />
+                </div>
+                {/* =============================troggle btn================================== */}
                 <div className='toggle-body'>
                     <span class="switcher switcher-1">
                         <input type="checkbox" id="switcher-1"/>
@@ -137,58 +138,68 @@ const HomePage = () => {
                  
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                  
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <p>Block # 238,651,702</p>
-                    </div>
-                    <hr /><br />
-
-                    <div className='address-history'>
-                        <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <p>Block # 238,651,702</p>
+                    </div>
+                    <hr /><br />
+
+                    <div className='address-history'>
+                        <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#8597;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />

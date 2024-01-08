@@ -29,7 +29,7 @@ justify-content: space-between;
 .mint-des{
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px .1px #888;
+    box-shadow: 2px 2px 8px .1px #88888877;
     padding: 20px;
     width: 40%;
     margin-right: 10px;
@@ -62,7 +62,7 @@ justify-content: space-between;
     justify-content: space-around;
     width: 60%;
     background-color: #fff;
-    box-shadow: 2px 2px 5px .1px #888;
+    box-shadow: 2px 2px 8px .1px #88888877;
     border-radius: 10px;
     margin-left: 10px;
     min-height: 190px;
@@ -93,7 +93,7 @@ justify-content: space-between;
 .rules-container{
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px .1px #888;
+    box-shadow: 2px 2px 8px .1px #88888877;
     padding: 40px 30px;
 }
 .rules-container h1{
@@ -104,4 +104,48 @@ justify-content: space-between;
     font-size: 16px;
     font-weight: 400;
     margin: 10px;
+}
+
+/* ===============responsive//=========== */
+@media only screen and (max-width:762px){
+    .social_links{
+        flex-direction: column;
+        position: relative;
+        top: -10px;
+        }
+    .social_icon{
+        width: 30x;
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .mint_container{
+        flex-direction: column;
+        /* top:20px; */
+    }
+    .mint-des{
+        padding: 10px;
+        width: 95%;
+        margin-right: 0px;
+        min-height: auto;
+    }
+    .mint_content_two{
+        padding:20px 10px;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 95%;   
+        margin-left:0px;
+        min-height: auto;
+    }
+    .total_win::after{
+       display: none;
+    }
+    .rules-container{
+        padding: 30px 10px;
+        margin: 0;
+        width: 95%;
+        margin-left: -3.5px;
+        margin-right: 0;
+    }
+
 }

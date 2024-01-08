@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../../Asset/logo/nextPadLogo.png'
-import { NavLink } from 'react-router-dom';
 import twitter from '../../Asset/all_icons/twitter.png'
 import discord from '../../Asset/all_icons/discord.png'
 import github from '../../Asset/all_icons/github.png'
 import check from '../../Asset/all_icons/check.png'
 import './MinitPage.css'
+import Header from '../Shared/Header/Header';
 
 const MinitPage = () => {
     return (
@@ -14,12 +13,9 @@ const MinitPage = () => {
                 <div className='banner_content'>
                     <div className='container'>
                         
-                        <div className='top-header'>
-                            <NavLink to="/">
-                                <img src={logo} alt="nextpad-logo" />
-                            </NavLink>
-                            <button className='connect-btn'>Connect</button>
-                        </div>
+                        {/* Header// */}
+                       <Header/>
+                       {/* Header// */}
 
                         <div className='text-content'>
                             <div className='social_links'>
@@ -57,7 +53,7 @@ const MinitPage = () => {
                         </div>
                         <br />
                         <hr />
-                        <br />
+                     
                         <button className='start_ming'>Mint</button>
                     </div>
 
