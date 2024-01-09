@@ -281,17 +281,17 @@
 
 @media only screen and (max-width:762px){
     .banner-section{
-        height: 60vh;
+        height: 65vh;
       }
     .text-content{
-        padding-top: 15px;
+        padding-top: 10px;
     }
     .text-content h1{
        font-size: 40px;
        text-align: center;
     }
     .heading-des{
-        margin-top: 10px;
+        margin-top: 5px;
         text-align: justify;
     }
     .head_num{
@@ -300,7 +300,7 @@
     .mint-timer{
         flex-direction: column;
         padding: 20px;
-        top: -50px;
+        top: -20px;
     }
     .time-counter{
         flex-direction: column;

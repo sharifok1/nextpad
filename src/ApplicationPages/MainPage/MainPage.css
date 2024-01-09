@@ -112,6 +112,7 @@ justify-content: space-between;
     } 
     .mint_container{
         flex-direction: column;
+        top: -20px;
     }
     .mint-des{
         padding: 10px;
