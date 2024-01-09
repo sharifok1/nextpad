@@ -41,15 +41,14 @@ const MainPage = () => {
                     <div className='mint-des'>
                         <div>
                             <div className='mint_content'>
-                                <p>Type</p><p>SPL</p>
+                                <p>Type</p><p>Bep20</p>
                             </div>
                             <div className='mint_content'>
-                                <p>Mint Price</p><p>0.1 SOL</p>
+                                <p>Mint Price</p><p>0.001</p>
                             </div>
                             <div className='mint_content'>
-                                <p>Token per mint</p><p>1000</p>
-                            </div>
-                            
+                                <p>Token per mint</p><p>BNB5000</p>
+                            </div>                          
                         </div>
                         <br />
                         <hr />
@@ -61,8 +60,7 @@ const MainPage = () => {
                         <div className='total_win'>
                             <h3>Total Winners</h3>
                             <h1>0</h1>
-                            <a href="/">Check Dashboard</a>
-                            
+                            <a href="/">Check Dashboard</a> 
                         </div>
                         <div className='mobile_view'></div>
                         <div className='total_wins'>
