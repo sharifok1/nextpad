@@ -46,8 +46,8 @@ const HomePage = () => {
                       <div className='time-counter'>
                           <h3>Ends in</h3>
                           <div className='time_blocks'>
-                            <div className='time-code'>5</div>
-                            <div className='time-code'>8</div>
+                            <div className='time-code'>0</div>
+                            <div className='time-code'>0</div>
                           </div>
                           <span>Seconds</span>
                       </div>
@@ -64,20 +64,20 @@ const HomePage = () => {
                   <div className='three-cards'>
                       <div className='three-cards-content'> 
                         <div>
-                            <p className='head_num'>532.40<span className='small-text'>Sol</span></p>
+                            <p className='head_num'>0.00<span className='small-text'>Sol</span></p>
                             <p>Total Prize Pol</p>
                          </div>
                       </div>
                       <div className='three-cards-content'> 
                         <div>
-                            <p className='head_num'>532.235</p>
-                            <p>Total Winners (52.55%)</p>
+                            <p className='head_num'>0</p>
+                            <p>Total Winners</p>
                          </div>
                       </div>
                       <div className='three-cards-content'> 
                         <div>
-                            <p className='head_num'>13.4%</p>
-                            <p>Avg winning rate (last 1h)</p>
+                            <p className='head_num'>0.0%</p>
+                            <p>Avg winning rate</p>
                          </div>
                       </div>
                   </div>
