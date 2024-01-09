@@ -284,7 +284,7 @@
         height: 65vh;
       }
     .text-content{
-        padding-top: 10px;
+        padding-top: 15px;
     }
     .text-content h1{
        font-size: 40px;
@@ -304,6 +304,7 @@
     }
     .heading-one{
         margin-top: -10px;
+        font-size: 35px;
     }
     .time-counter{
         flex-direction: column;

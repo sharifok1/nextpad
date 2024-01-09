@@ -46,7 +46,7 @@ const Header = () => {
                         {
                          defaultAccount ? 
                          <span>{defaultAccount.toString().slice(0, 6)}...
-                         {defaultAccount.toString().slice(-4)}</span> : 'Connect Wallet'
+                         {defaultAccount.toString().slice(-4)}</span> : 'Select Wallet'
                          }
                  </button>
              </div>
