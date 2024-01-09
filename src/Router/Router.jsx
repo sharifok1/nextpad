@@ -1,17 +1,18 @@
 import {createBrowserRouter} from "react-router-dom";
-import HomePage from "../ApplicationPages/HomePage/HomePage";
-import MinitPage from "../ApplicationPages/MinitPage/MinitPage";
+import HomePage from "../ApplicationPages/MintPage/MintPage";
+import MainPage from "../ApplicationPages/MainPage/MainPage";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element:<MainPage/>
   },
   {
     path: "/mint",
-    element:<MinitPage/>
+    element: <HomePage />,
   },
+  
 ]);
 
 export default router;

@@ -1,7 +1,10 @@
 import React from 'react';
-import './HomePage.css'
+import './MintPage.css'
 import { NavLink } from 'react-router-dom';
 import Header from '../Shared/Header/Header';
+import twitter from '../../Asset/all_icons/twitter.png'
+import discord from '../../Asset/all_icons/discord.png'
+import github from '../../Asset/all_icons/github.png'
 
 const HomePage = () => {
 
@@ -11,18 +14,28 @@ const HomePage = () => {
             <div className='banner-section'>
                 <div className='banner_content'>
                     <div className='container'>
-                       {/* Header// */}
+                        
+                        {/* Header// */}
                        <Header/>
                        {/* Header// */}
 
                         <div className='text-content'>
-                            <h1>Nextpad</h1>
-                            <p className='heading-des'>Nibh egestas id sed quam. Non leo odio orci ullamcorper nec arcu proin. Hendrerit odio dolor pretium viverra <br />
-                               elementum rhoncus scelerisque ut odio. Sed </p>
+                            <div className='social_links'>
+                                <h1>Nextpad</h1>
+                                <div>
+                                    <i><img className='social_icon' src={discord} alt="" /></i>
+                                    <i><img className='social_icon' src={twitter} alt="" /></i>
+                                    <i><img className='social_icon' src={github} alt="" /></i>
+                                    
+                                </div>
+                            </div>
+                            <p className='heading-des'>
+                                Inspired by Analysoor, Nextpad is a fully decentralized, cross-chain token launchpad that has implemented an entirely on-chain random number generation algorithm to ensure completely fair issuance. Our mission is to establish a truly fair token launchpad for real users
+                            </p>
                         </div>
                     </div>
-                    
-                </div>  
+                </div> 
+
             </div>
 
             {/* ============================homepage body==================================  */}
@@ -88,39 +101,16 @@ const HomePage = () => {
                       <div className='three-cards-content'> 
                         <div>
                             <p className='head_num'>0</p>
-                            <p>My wins</p>
+                            <p>Total $NXT token</p>
                          </div>
                       </div>
                       <div className='three-cards-content'> 
                         <div>
                             <p className='head_num'>0</p>
-                            <p>My wins</p>
+                            <p>My winning rates</p>
                          </div>
                       </div>
                   </div>
-                  <div className='mobile_disabled'><br /> <br /></div>
-                  <div className='three-cards'>
-
-                  <div className='three-cards-content'> 
-                        <div>
-                            <p className='head_num'>0</p>
-                            <p>My wins</p>
-                         </div>
-                      </div>
-                      <div className='three-cards-content'> 
-                        <div>
-                            <p className='head_num'>0</p>
-                            <p>My wins</p>
-                         </div>
-                      </div>
-                      <div className='three-cards-content'> 
-                        <div>
-                            <p className='head_num'>0</p>
-                            <p>My wins</p>
-                         </div>
-                      </div>
-                  </div>
-
                   
                 {/* history */}
                 <div className='hr-line'>
@@ -138,68 +128,68 @@ const HomePage = () => {
                  
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                  
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
-                        <p>Block # 238,651,702</p>
-                    </div>
-                    <hr /><br />
-
-                    <div className='address-history'>
-                        <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
 
                     <div className='address-history'>
                         <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
-                        <div className='mobile_show'><span>&#8597;</span></div>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
+                        <p>Block # 238,651,702</p>
+                    </div>
+                    <hr /><br />
+
+                    <div className='address-history'>
+                        <p>BsnvBd1g***HFX8Bk8ZHCxyNsu</p>
+                        <div className='mobile_show'><span>&#x2195;</span></div>
                         <p>Block # 238,651,702</p>
                     </div>
                     <hr /><br />
