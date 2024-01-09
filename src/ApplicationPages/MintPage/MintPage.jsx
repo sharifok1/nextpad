@@ -88,7 +88,6 @@ const HomePage = () => {
 
                 {/* =====================================your mints=========================== */}
                 <div>
-
                  <h1 className='heading-one'>Your Mints</h1> 
                   <div className='three-cards'>
                    

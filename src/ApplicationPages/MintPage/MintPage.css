@@ -302,6 +302,9 @@
         padding: 20px;
         top: -20px;
     }
+    .heading-one{
+        margin-top: -10px;
+    }
     .time-counter{
         flex-direction: column;
     }
